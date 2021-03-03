@@ -1,0 +1,259 @@
+/* media queries */
+
+/* desktop first */
+@media (min-width: 1441px){
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+  }
+  .header__title {
+    font-size: 97px;
+  }
+}
+@media (max-width: 1440px){
+}
+@media (max-width: 1240px){
+  .map-Euro__img {
+    max-width: 60%;
+  }
+  .banner {
+    padding-left: 0;
+  }
+  .banner__button {
+      padding: 23px 66px;
+  }
+  .banner__text {
+      width: 50%;
+      padding-top: 50px;
+  }
+
+}
+@media (max-width: 1024px){
+  .banner__cnt {
+      flex-direction: column;
+  }
+  .banner__text {
+      width: 90%;
+      padding-top: 35px;
+      margin-bottom: 10px;
+  }
+  .banner__button-box {
+      padding-top: 10px;
+      padding-right: 6%;
+      padding-bottom: 10px;
+      padding-left: 0;
+      justify-content: center;
+  }
+  .banner__button {
+      padding: 20px 60px;
+  }
+  .title__h2grey{
+    padding-top: 70px;
+    padding-left: 12%;
+  }
+  .review__slider {
+    padding: 0 5% 100px;
+  }
+}
+@media (min-width: 901px){
+  .title__grey {
+    font-size: 66px;
+  }
+}
+@media (max-width: 900px){
+
+  .header__title {
+    margin-bottom: 30px;
+  }
+  .logo {
+    font-size: 53px;
+    line-height: 53px;
+  }
+  .promo__box_left {
+    display: none;
+  }
+  .promo__box_right {
+    width: 100%;
+  }
+  .title__grey {
+    padding-left: 12%;
+  }
+  .cards {
+      padding-left: 10%;
+      padding-right: 10%;
+  }
+  .cards__wrapper {
+      width: 50%;
+  }
+  .cards__cnt {
+    height: 315px;
+  }
+  .title__h2grey {
+    padding-top: 50px;
+    padding-left: 12%;
+    padding-right: 10%;
+  }
+  .subscribe {
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .select_hlebushek {
+    display: none;
+  }
+    .map-Euro__list {
+        width: 80%;
+    }
+  .review__slider {
+    padding-bottom: 60px;
+  }
+  .slider__item {
+     flex: 0 0 100%;
+     max-width: 100%;
+  }
+  .slider__item > div {
+      height: 800px;
+  }
+  .slider {
+    max-width: 625px;
+  }
+  .review__foto_box {
+    margin-left: 12%;
+    width: 60%;
+    height: 50%;
+  }
+  .banner__picture-box {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer__col_left {
+    width: 80%;
+  }
+
+}
+@media (max-width: 600px){
+  .menu {
+    justify-content: space-around;
+    padding: 0;
+    height: 60px;
+  }
+  .header__logo {
+    display: none;
+  }
+  .header__title {
+      margin-bottom: 20px;
+  }
+  .title__h2grey {
+      padding-top: 40px;
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 50px;
+  }
+  .subscribe__title {
+      font-size: 50px;
+      line-height: 50px;
+  }
+  .title__grey  {
+    line-height: 50px;
+  }
+  .footer {
+    position: relative;
+    height: auto;
+    padding: 40px;
+    }
+  .footer__button {
+      position: absolute;
+      right: 40px;
+      top: 30px;
+      padding-top: 40px;
+  }
+}
+@media (max-width: 485px){
+  .font_grey {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .header {
+      padding-bottom: 50px;
+  }
+  .menu_mobile {
+    display: none;
+  }
+  .menu__button {
+      width: 120px;
+      padding-top: 20px;
+      padding-left: 0;
+  }
+  .header__button {
+      padding: 11px 25px;
+  }
+  .promo {
+      height: auto;
+      padding-bottom: 30px;
+  }
+  .promo__box_right {
+      padding-top: 30px;
+      padding-left: 0;
+  }
+  .promo__title {
+      font-size: 25px;
+      line-height: 25px;
+  }
+  .title__grey {
+      font-size: calc(7px + 100vw/15);
+      line-height: 35px;
+  }
+  .title__h2grey {
+      padding-top: 40px;
+      padding-left: 5%;
+      font-size: 35px;
+      line-height: 35px;
+  }
+  .subscribe {
+      height: auto;
+      padding-bottom: 15px;
+  }
+  .subscribe__title {
+      font-size: 35px;
+      line-height: 35px;
+  }
+  .subscribe__input {
+      width: 80%;
+  }
+  .subscribe__button:before {
+    display: none;
+  }
+  .map-Euro {
+      height: 700px;
+      padding-left: 10%;
+  }
+  .map-Euro__list {
+      width: 90%;
+  }
+  .review__slider {
+      padding: 0;
+  }
+  .slider__item > div {
+      padding: 0 40px;
+      height: 400px;
+  }
+  .review__foto_box {
+    display: none;
+  }
+  .review__marker {
+    width: 44px;
+  }
+  .banner__button {
+      padding: 10px 30px;
+  }
+  .footer {
+    padding-left: 8%;
+  }
+  .logo {
+      font-size: 35px;
+      line-height: 35px;
+  }
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang"RU">
+<head>
+  <meta charset="utf-8">
+  <title>Кошачье царство</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <!-- <link rel="icon" href=img/favicon.ico> -->
+
+</head>
+<body>
+    <div class="wrapper">
+      <nav class="menu">
+        <div class="header__logo header__logo_v">
+          <p class="logo">LOGO</p>
+        </div>
+        <a href="vtoroj.html" class="menu__button" title="о нас"><i class="fa fa-user-o" aria-hidden="true"></i><span class="menu_mobile"> о нас</span></a>
+        <a href="#slider" class="menu__button" title="галерея"><i class="fa fa-picture-o" aria-hidden="true"></i><span class="menu_mobile"> галерея</span></a>
+        <a href="#contact" class="menu__button" title="контакты"><i class="fa fa-address-card-o" aria-hidden="true"></i><span class="menu_mobile"> контакты</span></a>
+      </nav>
+      <header id="top" class="header">
+          <p class="header__text">training site</p>
+           <h1 class="header__title">тренируемся на котиках</h1>
+          <button id="myBtn" class="header__button" type="button"
+           name="button-order">order a project</button>
+      </header>
+      <main class="promo">
+        <div class="promo__box_left">
+          <div class="promo__box_left-cnt">
+            <p>сюда влепить анимацию</p>
+          </div>
+        </div>
+        <div class="promo__box_right">
+          <h2 class="promo__title"> Мы создаем мобильные приложения для ваших котиков</h2>
+            <p class="promo__text font_grey">Lorem Ipsum - это текст-"рыба", часто используемый
+              в печати и вэб-дизайне. Lorem Ipsum является стандартной
+               "рыбой" для текстов на латинице с начала XVI века.</p>
+               <a class="promo__link" href="vtoroj.html">Подробнее о компании</a>
+               <div class="promo__video">
+                 <iframe class="promo__video_iframe" width="560" height="315"
+                  src="https://www.youtube.com/embed/eYxtnJefZQE" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                 </iframe>
+               </div>
+        </div>
+       </main>
+      <!-- объёмные карточки -->
+      <h2 class="titleH2">наши услуги:</h2>
+      <section id="cardsVisible" class="cards__visible">
+        <div id="cards" class="cards">
+          <div class="cards__wrapper">
+            <div class="cards__cnt">
+                <p class="cards__icon"><i class="fa fa-paw" style="font-size: 30px" aria-hidden="true"></i></p>
+              <div class="cards__text">
+                <h4 class="cards__title">приложения для котиков</h4>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                   Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                    с начала XVI века.</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards__wrapper">
+            <div class="cards__cnt">
+                <p class="cards__icon"><i class="fa fa-paw" style="font-size: 30px" aria-hidden="true"></i></p>
+              <div class="cards__text">
+                <h4 class="cards__title">фотосессия котика</h4>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                   Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                    с начала XVI века.</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards__wrapper">
+            <div class="cards__cnt">
+                <p class="cards__icon"><i class="fa fa-paw" style="font-size: 30px" aria-hidden="true"></i></p>
+              <div class="cards__text">
+                <h4 class="cards__title">создание блога</h4>
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                   Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                    с начала XVI века.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- кнопка открыть-закрыть блок, js код которой я сама писала -->
+      <div class="cards__btn_cnt">
+        <button id="more" type="button" name="button" class="cards__btn"><i id="btnIcon" class="fa fa-chevron-down"
+         aria-hidden="true"></i></button>
+      </div>
+      <!-- секция - демонстрация работ -->
+      <section>
+        <h2 class="titleH2">кошачья масть</h2>
+        <div class="color-of-cats">
+          <div class="color-of-cats__list">
+            <div class="map__list">
+              <img class="map__list-img" src="img/ellipse-1.svg"alt="a circle">
+              <div>
+                <p class="map__list-title1">Ukraine</p>
+                <p class="map__list-text">But I must explain to you how all this mistaken
+                 idea of denouncing pleasure</p>
+             </div>
+            </div>
+            <div class="map__list">
+              <img class="map__list-img" src="img/ellipse-2.svg"alt="map">
+              <div>
+                <p class="map__list-title2">Spain</p>
+                <p class="map__list-text">But I must explain to you how all this mistaken
+                 idea of denouncing pleasure</p>
+             </div>
+            </div>
+            <div class="map__list">
+              <img class="map__list-img" src="img/ellipse-3.svg"alt="map">
+              <div>
+                <p class="map__list-title3">United Kingdom</p>
+                <p class="map__list-text">But I must explain to you how all this mistaken
+                 idea of denouncing pleasure</p>
+             </div>
+            </div>
+            <div class="map__list">
+              <img class="map__list-img" src="img/ellipse-4.svg"alt="map">
+              <div>
+                <p class="map__list-title4">Germany</p>
+                <p class="map__list-text">But I must explain to you how all this mistaken
+                 idea of denouncing pleasure</p>
+               </div>
+            </div>
+            <div class="map__list">
+              <img class="map__list-img" src="img/ellipse-5.svg"alt="map">
+              <div>
+                <p class="map__list-title5">Finland</p>
+                <p class="map__list-text">But I must explain to you how all this mistaken
+                   idea of denouncing pleasure</p>
+              </div>
+            </div>
+            <div class="map__list">
+              <img class="map__list-img" src="img/ellipse-6.svg"alt="ellipse">
+              <div>
+                <p class="map__list-title6">Italy</p>
+                <p class="map__list-text">But I must explain to you how all this mistaken
+                   idea of denouncing pleasure</p>
+              </div>
+            </div>
+          </div>
+          <img class="color-of-cats__picture" src="img/hlebushek.jpg"alt="map">
+        </div>
+      </section>
+      <section class="review">
+        <h2 class="titleH2">Отзывы</h2>
+        <div id="slider" class="review__slider">
+           <div class="slider">
+             <div class="slider__wrapper">
+               <div class="slider__item font_grey">
+                 <div class="slider__item_1">
+                    <img class="review__marker" src="img/vaadin-quote-right.svg"alt="marker">
+                    <p>
+                    Тут будет текст благодарностей.
+                    </p>
+                    <p class="review__signature">
+                    От Мурки
+                    </p>
+                    <div class="review__foto_box">
+                      <img class="review__foto" src="img/review.jpg"alt="foto">
+                    </div>
+                 </div>
+               </div>
+               <div class="slider__item font_grey">
+                 <div class="slider__item_2">
+                   <img class="review__marker" src="img/vaadin-quote-right.svg"alt="marker">
+                   <p>
+                    Ещё один отзыв о нашей интереснейшей игре для кошки Брыськи
+                   </p>
+                   <p class="review__signature">
+                    От хозяйки<br>
+                    Брыськи
+                   </p>
+                   <div class="review__foto_box">
+                     <img class="review__foto" src="img/review2.jpg"alt="foto">
+                   </div>
+                </div>
+               </div>
+               <div class="slider__item font_grey">
+                 <div class="slider__item_3">
+                   <img class="review__marker" src="img/vaadin-quote-right.svg"alt="marker">
+                   <p>
+                    Meov purrr murrr furrr meov meow. Meov purrr murrr furrr meov meow.
+                    Meov purrr murrr furrr meov meow. Meov purrr murrr furrr meov meow.
+                    Meov purrr murrr furrr meov meow. Meov purrr murrr furrr meov meow.
+                    Meov purrr murrr furrr meov meow.
+                   </p>
+                   <p class="review__signature">
+                    Meri-Purr
+                   </p>
+                   <div class="review__foto_box">
+                     <img class="review__foto" src="img/review.jpg"alt="foto">
+                   </div>
+                </div>
+               </div>
+               <div class="slider__item font_grey">
+                 <div class="slider__item_4">
+                   <img class="review__marker" src="img/vaadin-quote-right.svg"alt="marker">
+                   <p>
+                    Meov purrr murrr furrr meov meow. Meov purrr murrr furrr meov meow.
+                    Meov purrr murrr furrr meov meow. Meov purrr murrr furrr meov meow.
+                    Meov purrr murrr furrr meov meow.
+                   </p>
+                   <p class="review__signature">
+                    Tom
+                   </p>
+                   <div class="review__foto_box">
+                     <img class="review__foto" src="img/review2.jpg"alt="foto">
+                   </div>
+                </div>
+               </div>
+             </div>
+             <a class="slider__control slider__control_left" href="#" role="button"></a>
+             <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+           </div>
+        </div>
+      </section>
+      <!--banner footer -->
+      <section class="banner">
+        <div class="banner__picture-box">
+          <img class="banner__picture"src="img/kat-banner.png" alt="kat illustration">
+        </div>
+        <div class="banner__cnt">
+          <div class="banner__text">
+            <h3 class="banner__title">Конкурс!</h3>
+            <p class="banner__paragraph">Все коты и кошки прекрасны и у каждого участника
+              конкурса находятся свои поклонники и поклонницы. Учавствуйте в конкурсе красоты для питомцев
+              и соберите свою долю восхищённых комплиментов и призов!
+            </p>
+          </div>
+          <div class="banner__button-box">
+            <a href="#bunnerMod" class="banner__button">Буду учавствовать!</a>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer__col_left ">
+          <p class="logo">LOGO</p>
+          <div class="address">
+             <p>Котополис, ул. Почтовая, 18,<br>
+                агенство "Кошачье царство"</p>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <h3 class="contacts__title" id="contact">Contacts</h3>
+          <ul class="contacts">
+             <li><a class="contacts" href="tel:+380971517435"> +38 097 151 74 35</a></li>
+             <li><a class="contacts" href="mailto:shlachkashilana@gmail.com"> shlachkashilana@gmail.com</a></li>
+          </ul>
+        </div>
+        <div class="footer__button">
+            <a class="footer__button-text"href="#top">up ^</a>
+        </div>
+      </footer>
+    </div>
+    <!-- модальное окно для кнопки на css-->
+    <div id="bunnerMod" class="bunner_modal">
+        <div class="Modal_Body">
+            <p>Контент внутри окна</p>
+        </div>
+        <a href="#" class="ModalFull"></a>
+    </div>
+    <!-- модальное окно для кнопки шапки на js-->
+    <div id="myModal" class="modalbtn">
+      <div class="modal-content">
+          <span class="close">&times;</span> <!-- спецсимвол которого нет
+             на клавиатуре &times;знак умножения-->
+        <div class="modal-body">
+          <!-- формааааааа -->
+          <section class="subscribe">
+            <form action="" class="subscribe__body">
+              <h2 class="subscribe__title">Новости кошачьего мира</h2>
+              <p class="subscribe__text2">самые свежие сплетни!</p>
+              <input class="subscribe__input"type="email" name="Enter e-mail"
+              placeholder="Enter e-mail" required><button class="subscribe__button" type="submit"> > </button>
+              <hr class="subscribe__line">
+              <input type="checkbox" checked><span class="subscribe__text3"> Yes, I will recieve emails from </span>
+            </form>
+          </section>
+        </div>
+      </div>
+    </div>
+  <!-- ссссссссссссссссс -->
+  <script src="script/modal.js"></script>
+  <script src="script/slider.js"></script>
+  <script src="script/more.js"></script>
+</body>
+</html>

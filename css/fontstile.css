@@ -1,0 +1,10 @@
+/* шрифт с округлыми буквами. На сайте не использую, просто тренировалась подключать. */
+@font-face {
+	font-family: 'Conv_vag-world-bold';
+	src: url('../fonts/vag-world-bold.eot');
+	src: local('☺'), url('../fonts/vag-world-bold.woff') format('woff'),
+   url('../fonts/vag-world-bold.ttf') format('truetype'),
+    url('../fonts/vag-world-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

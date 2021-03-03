@@ -1,0 +1,30 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.href2-stile {
+  height: 600px;
+  padding-top: 160px;
+  padding-left: 10%;
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+.href2__text {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+}
+.clearfix:after {
+  content: " "; /* добавить содержимое: "." */
+  display: block;  /* сделать блоком, т.к. inline не может иметь clear */
+  clear: both;  /* с обеих сторон clear */
+  height: 0;  /* сделать высоту 0, чтобы не занимал место */
+}
+.ffim {
+    float: left;
+}
