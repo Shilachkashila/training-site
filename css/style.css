@@ -399,6 +399,26 @@ body {
     line-height: 24px;
 }
 /* слайдеррррррррррррррррр */
+.review__card {
+  box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    padding: 95px 50px 20px;
+}
+.review__text {
+  position: relative;
+}
+.review__text:before {
+  content: "";
+  position: absolute;
+  top: -70px;
+
+  width: 70px;
+  height: 70px;
+
+  background-image: url('../img/vaadin-quote-right.svg');
+  background-repeat: no-repeat;
+}
 .review__slider {
     box-sizing: border-box;
     display: flex;
@@ -427,10 +447,6 @@ body {
 .review__marker {
     margin-bottom: 10px;
 }
-.review__img-line {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
 .review__signature {
     font-weight: 600;
 }
@@ -444,13 +460,9 @@ body {
   background: #FE9800;
 }
 .review__foto_box {
-    position: absolute;
     width: 78%;
-    height: auto;
-    bottom: 0;
-}
-.review__foto {
-    width: 100%;
+    height: 200px;
+    background-image: url(../img/review2.jpg);
 }
 .slider__control {
     position: absolute;
