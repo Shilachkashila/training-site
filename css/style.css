@@ -133,9 +133,17 @@ body {
     padding-bottom: 120px;
 }
 .promo__box_left-cnt {
+    display: flex;
     height: 100%;
     background-color: #ffffff;
-    border: 5px solid #f0b095;
+    border-bottom: 5px solid #f0b095;
+}
+.promo_cat {
+    width: 100%;
+}
+.promo__img {
+  display: flex;
+  margin-top: auto;
 }
 .promo__box_right {
     box-sizing: border-box;
