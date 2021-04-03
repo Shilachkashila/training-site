@@ -188,12 +188,12 @@ body {
     background-image: url(../img/video-placeholder.png);
     background-size: 100% 100%;
 }
-/* объёмные карточки */
+/* карточки */
 .titleH2 {
     padding:12px 0 12px 17%;
     font-family: Montserrat;
     font-weight: 900;
-    font-size: calc(7px + 100vw/15);
+    font-size: calc(7px + 100vw/20);
     line-height: 64px;
     color: #ffffff;
     background-color: #f0b095;
@@ -235,7 +235,7 @@ body {
     background-size: auto 100%;
     transition: 1s; /* Время эффекта */
 }
-.cards__cnt:hover {
+/* .cards__cnt:hover {
     transform: scale(1.1); /* Увеличиваем масштаб */
 }
 .cards__icon {
@@ -349,63 +349,28 @@ body {
     line-height: 64px;
     color: #C4C4C4;
 }
-.color-of-cats__picture {
-    padding-left: 13%;
-    width: 50%;
-}
 .color-of-cats {
   display: flex;
   padding: 20px 0;
 }
-.color-of-cats__list {
+.color-of-cats__picture {
+    padding-left: 13%;
+    width: 50%;
+}
+.color-of-cats__list_wrapper {
+    margin-left: 7%;
     width: 350px;
     display:flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
-.map__list {
-    display:flex;
-    height: 74px;
+.color-of-cats__list {
+  list-style-type: none;
 }
-.map__list-img {
-  margin-top: 10px;
-  margin-right: 10px;
+.color-of-cats__list li {
   margin-bottom: 10px;
+  font-size: 20px;
+  line-height: normal;
 }
-.map__list-title1 {
-    font-size: 18px;
-    line-height: 24px;
-    color: #FE9800;
-}
-.map__list-title2 {
-    font-size: 18px;
-    line-height: 24px;
-    color: #FE9800;
-}
-.map__list-title3 {
-    font-size: 18px;
-    line-height: 24px;
-    color: #F34336;
-}
-.map__list-title4 {
-    font-size: 18px;
-    line-height: 24px;
-    color: #3F51B5;
-}
-.map__list-title5 {
-    font-size: 18px;
-    line-height: 24px;
-    color: #00BCD3;
-}
-.map__list-title6 {
-    font-size: 18px;
-    line-height: 24px;
-    color: #2196F3;
-}
-.map__list-text {
-    font-size: 16px;
-    line-height: 24px;
-}
+
 /* слайдеррррррррррррррррр */
 .review__card {
   box-sizing: border-box;
@@ -581,13 +546,6 @@ body {
 .banner__button:active {
     color: #666666;
 }
-.address {
-    box-sizing: border-box;
-    width: 100%;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
 .footer {
     box-sizing: border-box;
     display: flex;
@@ -595,7 +553,8 @@ body {
     padding-top: 50px;
     padding-left: 12%;
     color: #ffffff;
-    background-color: #212121;
+    background-image: url(../img/pixel-background.jpg);
+    background-size: auto 100%; /*картинка фиксирована по высоте блока и растянута по ширине*/
 }
 .footer__col_left {
     width:25%;
@@ -611,6 +570,13 @@ body {
 .footer__text {
     font-size: 16px;
     line-height: 24px;
+}
+.address {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 .footer__contacts {
     margin-right: 10%;
