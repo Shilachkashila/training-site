@@ -59,7 +59,6 @@ body {
     font-size: 20px;
     line-height: 20px;
     color: #ffffff;
-    -webkit-text-stroke: 1px #999999;
     text-decoration: none;
     user-select: none;
     outline: none;
@@ -338,7 +337,8 @@ body {
     border:none;
     background:#fff;
 }
-/* секция - демонстрация работ */
+
+/* секция - породы котиков */
 .title__h2grey {
     padding-top: 105px;
     padding-left: 17%;
@@ -363,12 +363,21 @@ body {
     display:flex;
 }
 .color-of-cats__list {
-  list-style-type: none;
+    list-style-type: none;
 }
-.color-of-cats__list li {
-  margin-bottom: 10px;
-  font-size: 20px;
-  line-height: normal;
+.color-of-cats__list_title {
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.color-of-cats__list_text {
+    margin-top: -2px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
 }
 
 /* слайдеррррррррррррррррр */
@@ -484,21 +493,22 @@ body {
 .banner {
     box-sizing: border-box;
     display: flex;
-    min-height: 288px;
+    min-height: 268px;
     padding-left: 5%;
-    background: linear-gradient(90deg, #3300ff 0%, #0099cc 99.5%);
+    background-image: url(../img/pixel-background.jpg);
+    background-size: auto 100%; /*картинка фиксирована по высоте блока и растянута по ширине*/
 }
 .banner__picture-box {
     position:relative;
     width:355px;
-    height:288px;
+    height:100px;
     margin-right: 70px;
 }
 .banner__picture {
     position:relative;
-    left:83px;
-    bottom: 70px;
-    width: 200px;
+    left:73px;
+    bottom: 20px;
+    width: 180px;
 }
 .banner__cnt {
     display: flex;
