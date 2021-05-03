@@ -39,7 +39,6 @@ body {
 .menu {
     display: flex;
     align-items: center;
-    position: absolute;
     justify-content:flex-end;
     box-sizing: border-box;
     width: 100%;
