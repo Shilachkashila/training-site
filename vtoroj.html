@@ -2,24 +2,28 @@
 <html lang"ru">
 <head>
   <meta charset="utf-8">
-  <title>LP Euro href2</title>
+  <title>Пиксельный кот</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <link rel="stylesheet" href="css/vtoroj.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="icon" href=img/favicon.ico>
 </head>
 <body>
   <div class="wrapper">
     <nav class="menu">
       <a href="index.html" class="menu__button">главная</a>
-      <a href="blog.html" class="menu__button" title="блог"><i class="fa fa-user-o" aria-hidden="true"></i><span class="menu_mobile"> блог</span></a>
+      <a href="blog.html" class="menu__button" title="блог"><span class="menu_mobile"> блог</span></a>
       <a href="#contact" class="menu__button">контакты</a>
     </nav>
     <div class="mine">
     <div class="href2-stile">
       <p class="href2__text">всё хорошо, ссылка работает. Здесь свалка незадействованных
          блоков. И учусь работать с многостраничником</p>
+         <button id="myBtn" class="header__button" type="button"
+          name="button-order">order a project</button>
         <ul>
           один список
         </ul>
@@ -205,4 +209,30 @@
     </div>
   </div>
   </div>
+  
+  <!-- модальное окно для кнопки шапки на js-->
+  <div id="myModal" class="modalbtn">
+    <div class="modal-content">
+        <span class="close">&times;</span> <!-- спецсимвол которого нет
+           на клавиатуре &times;знак умножения-->
+      <div class="modal-body">
+        <!-- формааааааа -->
+        <section class="subscribe">
+          <form action="" class="subscribe__body">
+            <h2 class="subscribe__title">Новости кошачьего мира</h2>
+            <p class="subscribe__text2">самые свежие сплетни!</p>
+            <input class="subscribe__input"type="email" name="Enter e-mail"
+            placeholder="Enter e-mail" required><button class="subscribe__button" type="submit"> > </button>
+            <hr class="subscribe__line">
+            <input type="checkbox" checked><span class="subscribe__text3"> Yes, I will recieve emails from </span>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+
+<!-- scripts -->
+  <script src="script/modal.js"></script>
+  <script src="script/slider.js"></script>
+  <script src="script/more.js"></script>
 </body>
