@@ -1,11 +1,11 @@
 * {
     margin:0;
     padding:0;
-    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам кроме боди.*/
+    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется,
+     применяется к прокручиваемым блокам кроме боди.*/
 }
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* контентттттттттттттттттттт */
@@ -16,21 +16,18 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-/* вынесенные стили шрифтов */
-.font_grey {
-  font-family: Montserrat;
+/* типографика */
+p {
   font-weight: 300;
   font-size: 18px;
   line-height: 24px;
 }
-.subscribe__text1, .subscribe__title, .header__text, .header__title,
-.button-order, .titleH2, .map__list-title1, .map__list-title2,
-.map__list-title3, .map__list-title4, .map__list-title5, .map__list-title6,
-.footer__button-text, .cards__title {
+.subscribe__text1, .subscribe__title, .header__text, h1, h2,
+.button-order, .footer__button-text, .cards__title {
     text-transform: uppercase;
 }
 
-
+/* стили */
 
 .menu {
     display: flex;
@@ -47,7 +44,6 @@ body {
     display: inline-block;
     padding-left: 10px;
     text-align: center;
-    font-family: Montserrat;
     font-weight: bold;
     font-size: 20px;
     line-height: 20px;
@@ -56,7 +52,10 @@ body {
     user-select: none;
     outline: none;
 }
-.menu__button:hover {
+a:hover {
+    color: #999999;
+}
+button:hover {
     color: #999999;
 }
 .menu__button:active {
@@ -148,7 +147,7 @@ body {
 }
 .promo__title {
     margin-bottom: 25px;
-    font-family: Montserrat;
+    font-family: 'Source Sans Pro';
     font-weight: 900;
     font-size: 32px;
     line-height: 32px;
