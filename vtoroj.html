@@ -24,6 +24,50 @@
          блоков. И учусь работать с многостраничником</p>
          <button id="myBtn" class="header__button" type="button"
           name="button-order">order a project</button>
+          <!-- последние работы -->
+          <h2 class="titleH2">наши услуги:</h2>
+          <section id="cardsVisible" class="cards__visible">
+            <div id="cards" class="cards">
+              <div class="cards__wrapper">
+                <div class="cards__cnt">
+                    <p class="cards__icon"><i class="fa fa-paw" style="font-size: 30px" aria-hidden="true"></i></p>
+                  <div class="cards__text">
+                    <h4 class="cards__title">приложения для котиков</h4>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                       Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                        с начала XVI века.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cards__wrapper">
+                <div class="cards__cnt">
+                    <p class="cards__icon"><i class="fa fa-paw" style="font-size: 30px" aria-hidden="true"></i></p>
+                  <div class="cards__text">
+                    <h4 class="cards__title">фотосессия котика</h4>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                       Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                        с начала XVI века.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="cards__wrapper">
+                <div class="cards__cnt">
+                    <p class="cards__icon"><i class="fa fa-paw" style="font-size: 30px" aria-hidden="true"></i></p>
+                  <div class="cards__text">
+                    <h4 class="cards__title">создание блога</h4>
+                    <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                       Lorem Ipsum является стандартной "рыбой" для текстов на латинице
+                        с начала XVI века.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- кнопка открыть-закрыть блок, js код которой я сама писала -->
+          <div class="cards__btn_cnt">
+            <button id="more" type="button" name="button" class="cards__btn"><i id="btnIcon" class="fa fa-chevron-down"
+             aria-hidden="true"></i></button>
+          </div>
         <ul>
           один список
         </ul>
@@ -187,6 +231,12 @@
         <img class="color-of-cats__picture" src="img/hlebushek.jpg"alt="map">
       </div>
     </section>
+    <!-- <div class="promo__video">
+      <iframe class="promo__video_iframe" width="560" height="315"
+       src="https://www.youtube.com/embed/eYxtnJefZQE" frameborder="0"
+       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div> -->
     <!-- footer -->
     <div class="footer">
       <div class="footer__col_left ">
@@ -209,7 +259,13 @@
     </div>
   </div>
   </div>
-
+  <!-- модальное окно для кнопки на css-->
+  <div id="bunnerMod" class="bunner_modal">
+      <div class="Modal_Body">
+          <p>Контент внутри окна</p>
+      </div>
+      <a href="#" class="ModalFull"></a>
+  </div>
   <!-- модальное окно для кнопки шапки на js-->
   <div id="myModal" class="modalbtn">
     <div class="modal-content">
