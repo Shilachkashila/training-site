@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8">
   <title>Пиксельный кот</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Source+Sans+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/mine.css">
   <link rel="stylesheet" href="css/media.css">
-  <!-- <link rel="stylesheet" href="css/vtoroj.css"> -->
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="icon" href=img/favicon.ico>
 </head>
@@ -18,8 +18,11 @@
     </header>
     <!-- навигация -->
     <nav class="menu">
-      <a href="index.html" class="menu__link" title="главная"><span class="menu_mobile"> главная</span></a>
-      <a href="#contact" class="menu__link" title="контакты"><span class="menu_mobile"> контакты</span></a>
+      <ul>
+        <li><a href="index.html" class="menu__link" title="главная"><span class="menu_mobile"> главная</span></a></li>
+        <li><a id="modalBtn" href="#plug" class="menu__link" title="все статьи"><span class="menu_mobile"> все статьи</span></a></li>
+        <li><a href="#contact" class="menu__link" title="контакты"><span class="menu_mobile"> контакты</span></a></li>
+      </ul>
     </nav>
     <article class="">
       <h2>Первая запись</h2>
@@ -32,6 +35,8 @@
              автомобилях приравнялась к двум билетам на самолёт. Денюжки таяли, перспектива работать
               в Польше исчезала вместе с продлениями карантина.
             "Нужно что то делать" подумала Шилачка...и купила себе Бас.</p>
+      <time pubdate>2020-05</time>
+      <p>Категория: <span>первая категория</span></p>
     </article>
     <!-- footer -->
     <footer class="footer">
@@ -46,5 +51,27 @@
           <a class="footer__button"href="#top">up ^_^</a>
       </div>
     </footer>
-  <div/>
+    <!-- модальное окно список статей-->
+    <div id="myModal" class="modal-window">
+      <div class="modal-content">
+          <span class="close">&times;</span> <!-- спецсимвол которого нет
+             на клавиатуре &times;знак умножения-->
+        <div class="modal-body">
+          <p>поиск по блогу. Какой он будет? Может по дате добавления или по названию?</p>
+          <!-- список категорий -->
+          <ul>
+            <li>первая категория</li>
+            <li>вторая категория</li>
+          </ul>
+          <!-- список статей. что будет видно кроме названия? -->
+          <ul>
+            <li>первая статья</li>
+            <li>вторая статья</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- скрипты -->
+  <script src="script/modal.js"></script>
 </body>

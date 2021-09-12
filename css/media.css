@@ -1,22 +1,8 @@
 /* media queries */
 
 /* desktop first */
-@media (min-width: 1441px){
-  body {
-    display: flex;
-    flex-direction: column;
-    align-items: center
-  }
-  .header__title {
-    font-size: 97px;
-  }
-}
-@media (max-width: 1440px){
-}
+
 @media (max-width: 1240px){
-  .map-Euro__img {
-    max-width: 60%;
-  }
   .banner {
     padding-left: 0;
   }
