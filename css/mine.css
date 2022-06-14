@@ -62,7 +62,7 @@ li {display: inline-block;}
     width: 100%;
     height: 80px;
     padding-top: 10px;
-    background-color: #5cb3cf;
+    background-color: blue;
 }
 .menu__link {
     display: inline-block;
@@ -88,9 +88,10 @@ li {display: inline-block;}
     padding: 0 12% 0;
 }
 .header__title {
+    width: 100%;
     font-weight: 900;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 114px;
+    line-height: 114px;
     color: #000000;
 }
 .header__button {
@@ -110,54 +111,36 @@ li {display: inline-block;}
     cursor:pointer;
 }
 .promo {
+    position: relative;
     display: flex;
-    height: 440px;
-    padding-left: 12%;
-    padding-right: 12%;
+    height: 400px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 80% auto;
+    background-position: left;
 }
 .promo__box_left {
+    position: absolute;
     box-sizing: border-box;
-    width: 40%;
-    padding: 70px 5% 60px 0;
-
-}
-.promo__box_left-cnt {
-    display: flex;
-    height: 100%;
-    background-color: #ffffff;
-    border-bottom: 5px solid #f0b095;
+    bottom: 0;
+    right: 0;
 }
 .promo_cat {
     width: 100%;
-    max-width: 310px;
+    max-width: 220px;
 }
 .promo__img {
     display: flex;
     margin-top: auto;
 }
-.promo__box_right {
-    box-sizing: border-box;
-    height: 100%;
-    width: 60%;
-    padding: 60px 0 70px 5%;
-}
 .promo__link {
-    font-family: 'Source Sans Pro';
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 30%;
+    font-size: 100px;
+    font-weight: bold;
     color: #f0b095;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 48px;
     text-transform: uppercase;
     text-decoration: none;
-}
-.promo__link::after {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  content: "";
-  display: block;
-  width: 110px;
-  height: 5px;
-  background: #f0b095;
 }
 .promo__link:active {
     color: #666666;
@@ -548,10 +531,11 @@ li {display: inline-block;}
     box-sizing: border-box;
     display: flex;
     height: auto;
-    padding: 50px 12% 50px;
+    padding: 10px 12% 10px;
     color: #ffffff;
-    background-image: url(../img/pixel-background.jpg);
-    background-size: auto 100%; /*картинка фиксирована по высоте блока и растянута по ширине*/
+    /* background-image: url(../img/pixel-background.jpg); */
+    background-color: #5cb3cf;
+    /* background-size: auto 100%; /*картинка фиксирована по высоте блока и растянута по ширине*/ */
 }
 .contacts__title {
     padding-top: 15px;
